@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 40px;
+}
+
+body {
+  background-color: black;
+}
+
+.header_grid {
+  padding-top: 10px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: ". . .";
+}
+.header_grid .logo {
+  max-width: 400px;
+  display: flex;
+  justify-self: center;
+  cursor: pointer;
+}
+.header_grid .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.header_grid .nav li {
+  margin-left: 40px;
+  cursor: pointer;
+}
+.header_grid .nav li:hover {
+  color: #504f51;
+}
+.header_grid .search {
+  margin-left: 40px;
+  padding: 5px;
+  max-width: 300px;
+  border-radius: 25px;
+  outline: none;
+  color: black;
+  background-color: #504f51;
+  font-size: 30px;
+  border: none;
+}
+.header_grid .profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header_grid .profile img {
+  cursor: pointer;
+  filter: invert(1);
+  width: 100px;
+  margin: 40px;
+}
+.header_grid .profile p {
+  cursor: pointer;
+}
+.header_grid .profile p:hover {
+  color: #504f51;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main_container_name {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+main .main_container_edit {
+  outline: none;
+  background-color: #504f51;
+  color: black;
+  width: 900px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: none;
+  padding-bottom: 400px;
+}
+main .main_container_send p {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #504f51;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+main .main_container_send p:hover {
+  color: black;
+}
+main .publish_section {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+main .publish_section .publish_text {
+  margin-top: 100px;
+}/*# sourceMappingURL=main.css.map */

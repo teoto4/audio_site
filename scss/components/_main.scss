@@ -1,0 +1,57 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .main_container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_name {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        &_edit {
+            outline: none;
+            background-color: #504f51;
+            color: black;
+            width: 900px;
+            border-radius: 25px;
+            padding-left: 10px;
+            padding-top: 10px;
+            border: none;
+            padding-bottom: 400px;
+        }
+
+        &_send {
+            p {
+                margin-top: 20px;
+                cursor: pointer;
+                background-color: #504f51;
+                padding: 10px 15px;
+                border-radius: 25px;
+            }
+
+            p:hover {
+                color: black;
+            }
+        }
+    }
+
+    .publish_section {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+
+        .publish_text {
+            margin-top: 100px;
+        }
+    }
+}
